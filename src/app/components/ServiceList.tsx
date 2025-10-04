@@ -1,25 +1,25 @@
-import styles from '../styles/ServiceList.module.css'
+import { FaPalette, FaMobileAlt, FaTachometerAlt, FaTags, FaCode, FaGlobe } from 'react-icons/fa';
 
 const services = [
-  { icon: '📦', title: 'UI/UX Design' },
-  { icon: '📱', title: 'Mobile App' },
-  { icon: '📊', title: 'Dashboard Design' },
-  { icon: '🎨', title: 'Branding' },
-  { icon: '💻', title: 'Front End' },
-  { icon: '🌐', title: 'Webflow Dev' },
+  { icon: <FaPalette />, title: 'UI/UX Design' },
+  { icon: <FaMobileAlt />, title: 'Mobile App' },
+  { icon: <FaTachometerAlt />, title: 'Dashboard Design' },
+  { icon: <FaTags />, title: 'Branding' },
+  { icon: <FaCode />, title: 'Front End' },
+  { icon: <FaGlobe />, title: 'Webflow Dev' },
 ]
 
 export default function ServiceList() {
   return (
-    <section className={styles.serviceBox}>
-      <div className={styles.headerSection}>
+    <section className="serviceBox">
+      <div className="headerSection">
         <h2>Services I Offered</h2>
-        <a className={styles.seeAll}>See All</a>
+        <a className="seeAll">See All</a>
       </div>
-      <ul className={styles.services}>
+      <ul className="services">
         {services.map((srv, idx) => (
           <li key={idx}>
-            <span className={styles.icon}>{srv.icon}</span>
+            <span className="icon">{srv.icon}</span>
             {srv.title}
           </li>
         ))}

@@ -23,10 +23,8 @@ export default function Home() {
         }}
       >
         <ProfileCard />
-        <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 32 }}>
-          <ProjectCard />
-          <ServiceList />
-        </div>
+        <ProjectCard />
+        <ServiceList />
       </main>
 
       <section

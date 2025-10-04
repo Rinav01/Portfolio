@@ -1,33 +1,33 @@
-import styles from '../styles/ProfileCard.module.css'
 import Image from 'next/image';
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 export default function ProfileCard() {
   return (
-    <div className={styles.card}>
-      <Image src="https://via.placeholder.com/100" alt="Cris Rayaan" className={styles.avatar} width={100} height={100} />
-      <h2 className={styles.name}>
+    <div className="card">
+      <Image src="https://via.placeholder.com/100" alt="Cris Rayaan" className="avatar" width={100} height={100} />
+      <h2 className="name">
         Cris <br /> Rayaan <span>👋</span>
       </h2>
-      <p className={styles.desc}>
+      <p className="desc">
         A Passionate Full Stack Developer 💻 & Product Designer having 12 years of Experiences over 24+ Country
         Worldwide.
       </p>
-      <div className={styles.actions}>
-        <button className={styles.callBtn}>Book a call</button>
-        <button className={styles.mailBtn}>Send Mail</button>
+      <div className="actions">
+        <button className="callBtn">Book a call</button>
+        <button className="mailBtn">Send Mail</button>
       </div>
-      <div className={styles.socials}>
+      <div className="socials">
         <a href="#" aria-label="Facebook">
-          F
+          <FaFacebookF />
         </a>
         <a href="#" aria-label="Twitter">
-          T
+          <FaTwitter />
         </a>
         <a href="#" aria-label="Instagram">
-          I
+          <FaInstagram />
         </a>
         <a href="#" aria-label="LinkedIn">
-          L
+          <FaLinkedinIn />
         </a>
       </div>
     </div>

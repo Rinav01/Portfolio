@@ -1,4 +1,3 @@
-import styles from '../styles/ProjectCard.module.css'
 import Image from 'next/image';
 
 const projects = [
@@ -17,18 +16,18 @@ const projects = [
 
 export default function ProjectCard() {
   return (
-    <section className={styles.projectsContainer}>
-      <div className={styles.headerSection}>
+    <section className="projectsContainer">
+      <div className="headerSection">
         <h2>My Projects</h2>
-        <a className={styles.seeAll}>See All</a>
+        <a className="seeAll">See All</a>
       </div>
-      <div className={styles.scrollArea}>
+      <div className="scrollArea">
         {projects.map((project, idx) => (
-          <div key={idx} className={styles.projectCard}>
-            <Image src={project.image} alt={project.title} className={styles.projectImg} width={150} height={150} />
-            <div className={styles.cardText}>
-              <div className={styles.title}>{project.title}</div>
-              <div className={styles.date}>{project.date}</div>
+          <div key={idx} className="projectCard">
+            <Image src={project.image} alt={project.title} className="projectImg" width={150} height={150} />
+            <div className="cardText">
+              <div className="title">{project.title}</div>
+              <div className="date">{project.date}</div>
             </div>
           </div>
         ))}
