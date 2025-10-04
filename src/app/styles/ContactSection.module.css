@@ -1,0 +1,32 @@
+.contactBox {
+  background: #232325;
+  border-radius: 20px;
+  padding: 28px 28px 24px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.contactBox h2 {
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+.description {
+  color: #999;
+  font-size: 0.98rem;
+  line-height: 1.4;
+}
+.talkBtn {
+  background: #4793f8;
+  color: #fff;
+  border: none;
+  border-radius: 22px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 12px 0;
+  cursor: pointer;
+  box-shadow: 0 2px 18px #3a72c522;
+}
+.talkBtn:hover {
+  background: #367ace;
+}

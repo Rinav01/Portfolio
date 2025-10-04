@@ -1,0 +1,41 @@
+.expBox {
+  background: #232325;
+  border-radius: 20px;
+  padding: 24px;
+  width: 280px;
+}
+.expBox h2 {
+  margin-bottom: 18px;
+}
+.expList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.job {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 14px;
+  color: #bbb;
+}
+.icon {
+  font-size: 1.7rem;
+  flex-shrink: 0;
+}
+.company {
+  font-weight: bold;
+  display: block;
+  font-size: 1rem;
+  color: #eee;
+}
+.title {
+  font-size: 0.88rem;
+  color: #999;
+  display: block;
+}
+.years {
+  margin-left: auto;
+  font-size: 0.85rem;
+  color: #777;
+}

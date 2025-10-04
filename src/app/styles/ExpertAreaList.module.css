@@ -1,0 +1,28 @@
+.areaBox {
+  background: #232325;
+  border-radius: 20px;
+  padding: 24px;
+  width: 280px;
+}
+.areaBox h2 {
+  margin-bottom: 14px;
+}
+.tools {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: #aaa;
+  font-size: 1.1rem;
+}
+.tools li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.icon {
+  font-size: 1.5rem;
+  color: #4793f8;
+}
