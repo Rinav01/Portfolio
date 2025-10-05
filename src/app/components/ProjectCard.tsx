@@ -11,6 +11,21 @@ const projects = [
     title: 'Travel Agency Website',
     date: '2021 August',
   },
+  {
+    image: 'https://via.placeholder.com/150',
+    title: 'E-commerce Dashboard',
+    date: '2022 January',
+  },
+  {
+    image: 'https://via.placeholder.com/150',
+    title: 'Mobile Banking App',
+    date: '2021 May',
+  },
+  {
+    image: 'https://via.placeholder.com/150',
+    title: 'Data Visualization Tool',
+    date: '2020 November',
+  },
   // Add more projects here
 ]
 
